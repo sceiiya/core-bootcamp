@@ -20,7 +20,7 @@ require('@nomicfoundation/hardhat-toolbox');
 require("dotenv").config({path: ".env"})
 // const { PrivateKey } = require('./secret.json');
 
-const PIVATE_KEY = process.env.PRIV_K
+const PIVATE_KEY = process.env.PRIVATE_KEY
 
 module.exports = {
    defaultNetwork: 'testnet',
