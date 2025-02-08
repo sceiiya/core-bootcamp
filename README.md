@@ -53,3 +53,9 @@ Here are some VS Code Extensions that could help you have a better development e
 
 ## Contribute
 For change request, please clone and submit pull-request. Or e-mail at mark@theblokc.com
+
+___
+# Yielded Proof of Work
+---
+## Counter Contract Creation
+ - [kpi hash](https://scan.test2.btcs.network/address/0xf933529809b05DE77A1968F84C3ABe35b4ecd519)
