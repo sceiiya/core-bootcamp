@@ -8,6 +8,13 @@ const { PRIVATE_KEY } = process.env;
 const config: HardhatUserConfig = {
   solidity: "0.8.28",
   networks: {
+    hardhat: {
+    },
+    testnet: {
+       url: 'https://rpc.test2.btcs.network',
+       accounts: [PRIVATE_KEY as string],
+       chainId: 1114, 
+    },
     core_testnet: {
       accounts: [
         PRIVATE_KEY as string
@@ -15,7 +22,7 @@ const config: HardhatUserConfig = {
       url: 'https://rpc.test2.btcs.network',
       chainId: 1114
     }
-  }
+  },
 };
 
 export default config;
