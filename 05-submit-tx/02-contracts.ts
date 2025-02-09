@@ -1,5 +1,4 @@
-import path from 'path'
-require('dotenv').config({ path: path.resolve(__dirname, '.env') });
+import "dotenv/config";
 
 import {
   Hex,
@@ -30,7 +29,7 @@ const account = privateKeyToAccount(`0x${privateKey}` as Hex);
   // });
   // const { contractAddress } = await client.getTransactionReceipt({ hash });
 
-  const contractAddress = '0x600d4a8cf5caefdeca95592fbb1c48a0c5a75c7d';
+  const contractAddress = '0xf933529809b05DE77A1968F84C3ABe35b4ecd519';
 
   if (contractAddress) {
     const contract = getContract({

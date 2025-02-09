@@ -1,5 +1,4 @@
-import path from 'path'
-require('dotenv').config({ path: path.resolve(__dirname, '.env') });
+import "dotenv/config";
 
 import { Hex, createPublicClient, http, formatEther } from 'viem';
 import { privateKeyToAccount } from "viem/accounts";
