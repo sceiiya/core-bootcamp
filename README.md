@@ -66,4 +66,6 @@ ___
 ## 02-Hardhat
 0xeE0da4B021D5651819214B23b6439B9ee3B65c70 [sasdw](https://scan.test2.btcs.network/tx/0x70fcf8ab8d51ff4177809837f50f100f01417e37febf3d64b100497c53bd4bac)
 
-##
+## 04-erc721
+smart contract of NFT
+0x7ec92b42246ff595504813fbc91f9a3923c4e8ec
