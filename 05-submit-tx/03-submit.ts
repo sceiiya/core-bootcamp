@@ -11,7 +11,7 @@ import {
   publicActions,
 } from "viem";
 import { privateKeyToAccount } from "viem/accounts";
-import artifacts from "./submit.artifacts.json";
+import artifacts from "./erc20-artifacts.json";
 
 // Application Binary Interface
 const { abi } = artifacts;
